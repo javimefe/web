@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web completa sobre Seguridad de las TIC con contenido final, recursos y FAQ." />
+    <title>Seguridad de las TIC | Proyecto Final</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio">🔐 Seguridad TIC</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="menu-list">Menú</button>
+        <ul id="menu-list" class="menu">
+          <li><a class="active" href="#inicio">Inicio</a></li>
+          <li><a href="#grupo">Grupo</a></li>
+          <li><a href="#integrantes">Integrantes</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#webgrafia">Webgrafía</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero container reveal">
+        <div>
+          <p class="eyebrow">Proyecto Escolar · Ciberseguridad</p>
+          <h1>Seguridad de las TIC</h1>
+          <p class="lead">
+            Somos el <strong>Grupo 4</strong> de 4º ESO y en esta web presentamos un estudio completo
+            sobre la protección de equipos, redes, datos personales y buenas prácticas digitales.
+            Nuestro objetivo es explicar la seguridad de forma clara, práctica y actual.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#integrantes">Ver aportaciones del equipo</a>
+            <a class="btn btn-ghost" href="#faq">Ir a preguntas frecuentes</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80" alt="Pantalla con código y candado representando ciberseguridad" />
+          <figcaption>Seguridad digital: prevención, detección y respuesta ante amenazas.</figcaption>
+        </figure>
+      </section>
+
+      <section id="grupo" class="container section reveal">
+        <h2>Descripción del grupo</h2>
+        <div class="meta-card">
+          <p><strong>Número de grupo:</strong> 4</p>
+          <p><strong>Integrantes:</strong> Laura Méndez Ruiz, David Soto Paredes, Carla Ibáñez León, Marcos Vidal Torres.</p>
+          <p>
+            Como equipo, combinamos organización, creatividad, análisis técnico y comunicación.
+            Hemos trabajado en conjunto para repartir contenidos, contrastar fuentes y construir una web
+            clara y visual sobre Seguridad de las TIC.
+          </p>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3>Laura Méndez Ruiz</h3>
+            <p>Metódica, comunicativa y responsable. Se centra en proteger datos personales y privacidad online.</p>
+          </article>
+          <article class="card reveal">
+            <h3>David Soto Paredes</h3>
+            <p>Analítico, resolutivo y curioso. Investiga malware, ataques comunes y sistemas de defensa activa.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Carla Ibáñez León</h3>
+            <p>Creativa, organizada y constante. Trabaja políticas de contraseñas y autenticación segura.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Marcos Vidal Torres</h3>
+            <p>Práctico, colaborativo y observador. Desarrolla copias de seguridad, seguridad pasiva y recuperación.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section reveal">
+        <h2>¿Qué entendemos por Seguridad de las TIC?</h2>
+        <p>
+          La Seguridad de las TIC es el conjunto de medidas técnicas y hábitos responsables para proteger
+          la información y los sistemas frente a accesos no autorizados, pérdida de datos, ataques y errores humanos.
+          Se apoya en tres pilares fundamentales: <strong>confidencialidad</strong>, <strong>integridad</strong> y
+          <strong>disponibilidad</strong>. También incluye prevención, monitorización y respuesta ante incidentes.
+        </p>
+        <div class="pill-row">
+          <span class="pill">Confidencialidad</span>
+          <span class="pill">Integridad</span>
+          <span class="pill">Disponibilidad</span>
+          <span class="pill">Prevención</span>
+          <span class="pill">Respuesta a incidentes</span>
+        </div>
+      </section>
+
+      <section id="integrantes" class="container section-gap">
+        <h2 class="reveal">Aportaciones por integrante</h2>
+
+        <article class="card reveal">
+          <h3>1) Laura · Privacidad y protección de datos</h3>
+          <p>
+            La privacidad digital implica controlar qué información personal compartimos y con quién.
+            Laura explica la importancia de configurar permisos en redes sociales, evitar enlaces sospechosos
+            y usar cifrado cuando compartimos archivos sensibles.
+          </p>
+          <button class="btn btn-primary toggle-btn" data-target="extra-laura">Ver más</button>
+          <div id="extra-laura" class="toggle-content">
+            <p>
+              También destaca el uso de navegadores con protección anti-rastreo, revisión de cookies,
+              y el derecho a la protección de datos según la normativa vigente. Recomienda revisar ajustes
+              de privacidad cada trimestre y eliminar cuentas antiguas en desuso.
+            </p>
+          </div>
+          <div class="divider" role="presentation"></div>
+          <div class="carousel" data-carousel>
+            <button class="carousel-btn prev" aria-label="Imagen anterior">❮</button>
+            <div class="carousel-track">
+              <img class="carousel-slide active" src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80" alt="Panel de privacidad en un portátil" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=1200&q=80" alt="Persona configurando seguridad en móvil" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80" alt="Candado digital representando protección de datos" />
+            </div>
+            <button class="carousel-btn next" aria-label="Siguiente imagen">❯</button>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <h3>2) David · Malware y amenazas</h3>
+          <p>
+            David clasifica las amenazas principales: virus, ransomware, spyware y phishing.
+            Explica que muchos ataques empiezan por ingeniería social y no por fallos técnicos avanzados.
+          </p>
+          <button class="btn btn-primary toggle-btn" data-target="extra-david">Mostrar información</button>
+          <div id="extra-david" class="toggle-content">
+            <p>
+              Recomienda mantener software actualizado, instalar antivirus, activar firewall y verificar
+              la autenticidad de correos antes de abrir adjuntos. También sugiere usar cuentas sin permisos
+              de administrador para tareas diarias.
+            </p>
+          </div>
+          <div class="divider" role="presentation"></div>
+          <div class="carousel" data-carousel>
+            <button class="carousel-btn prev" aria-label="Imagen anterior">❮</button>
+            <div class="carousel-track">
+              <img class="carousel-slide active" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="Código y alerta de amenaza informática" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80" alt="Pantalla con análisis antivirus" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1591696331111-ef9586a5b17b?auto=format&fit=crop&w=1200&q=80" alt="Protección de endpoint empresarial" />
+            </div>
+            <button class="carousel-btn next" aria-label="Siguiente imagen">❯</button>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <h3>3) Carla · Contraseñas seguras y 2FA</h3>
+          <p>
+            Carla desarrolla buenas prácticas de autenticación: contraseñas largas, únicas y con gestor de contraseñas.
+            Subraya que repetir claves entre servicios aumenta mucho el riesgo.
+          </p>
+          <button class="btn btn-primary toggle-btn" data-target="extra-carla">Ver más</button>
+          <div id="extra-carla" class="toggle-content">
+            <p>
+              Recomienda activar doble factor (2FA) mediante app autenticadora y revisar periódicamente
+              sesiones activas. En caso de filtración, cambiar claves inmediatamente y activar alertas de acceso.
+            </p>
+          </div>
+          <div class="divider" role="presentation"></div>
+          <div class="carousel" data-carousel>
+            <button class="carousel-btn prev" aria-label="Imagen anterior">❮</button>
+            <div class="carousel-track">
+              <img class="carousel-slide active" src="https://images.unsplash.com/photo-1633265486501-0cf524a072f3?auto=format&fit=crop&w=1200&q=80" alt="Pantalla con autenticación de dos factores" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?auto=format&fit=crop&w=1200&q=80" alt="Gestor de contraseñas en dispositivo" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=80" alt="Acceso seguro y protección de cuentas" />
+            </div>
+            <button class="carousel-btn next" aria-label="Siguiente imagen">❯</button>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <h3>4) Marcos · Copias de seguridad y seguridad pasiva</h3>
+          <p>
+            Marcos expone que la seguridad pasiva reduce daños cuando el ataque ya ocurrió.
+            La medida clave es la copia de seguridad con regla 3-2-1: tres copias, dos soportes distintos y una fuera de línea.
+          </p>
+          <button class="btn btn-primary toggle-btn" data-target="extra-marcos">Mostrar información</button>
+          <div id="extra-marcos" class="toggle-content">
+            <p>
+              Además, propone planes de recuperación, pruebas periódicas de restauración y uso de almacenamiento
+              cifrado para evitar pérdida definitiva de información escolar o personal.
+            </p>
+          </div>
+          <div class="divider" role="presentation"></div>
+          <div class="carousel" data-carousel>
+            <button class="carousel-btn prev" aria-label="Imagen anterior">❮</button>
+            <div class="carousel-track">
+              <img class="carousel-slide active" src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80" alt="Servidor con sistema de copias de seguridad" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80" alt="Almacenamiento externo para backup" />
+              <img class="carousel-slide" src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=80" alt="Centro de datos y recuperación de información" />
+            </div>
+            <button class="carousel-btn next" aria-label="Siguiente imagen">❯</button>
+          </div>
+        </article>
+
+        <section class="video-links reveal">
+          <h3>Vídeos y presentación del proyecto</h3>
+          <a class="btn btn-ghost" href="https://www.incibe.es/" target="_blank" rel="noopener">Recurso externo recomendado</a>
+          <div class="embed-grid">
+            <iframe src="https://www.youtube.com/embed/inWWhr5tnEA" title="Video sobre ciberseguridad" loading="lazy" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/2RaL5f4MyhU" title="Video sobre buenas prácticas de seguridad" loading="lazy" allowfullscreen></iframe>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT4wIEXAMPLE12345/embed?start=false&loop=false&delayms=3000" title="Presentación de Google Slides del proyecto" loading="lazy" allowfullscreen></iframe>
+          </div>
+        </section>
+      </section>
+
+      <section id="faq" class="container section-gap reveal">
+        <h2>Preguntas frecuentes (resueltas por el grupo)</h2>
+        <div class="faq-grid">
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">¿Cuál es la diferencia entre seguridad activa y pasiva?</button>
+            <div class="faq-answer">
+              <p><strong>Laura:</strong> La seguridad activa previene ataques (antivirus, firewall, actualizaciones).</p>
+              <p><strong>Marcos:</strong> La seguridad pasiva reduce daños cuando ocurre el incidente (copias de seguridad, planes de recuperación).</p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">¿Por qué es importante usar 2FA?</button>
+            <div class="faq-answer">
+              <p><strong>Carla:</strong> Porque añade una segunda barrera de acceso aunque alguien robe la contraseña.</p>
+              <p><strong>David:</strong> Disminuye ataques por credenciales filtradas y accesos no autorizados.</p>
+            </div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" aria-expanded="false">¿Qué hábitos mínimos debemos aplicar cada día?</button>
+            <div class="faq-answer">
+              <p><strong>David:</strong> No abrir enlaces sospechosos y mantener aplicaciones al día.</p>
+              <p><strong>Laura:</strong> Revisar privacidad en redes y evitar compartir datos personales innecesarios.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="webgrafia" class="container section reveal">
+        <h2>Webgrafía</h2>
+        <ul class="webgraphy-list">
+          <li><a href="https://www.incibe.es/" target="_blank" rel="noopener">INCIBE - Instituto Nacional de Ciberseguridad</a></li>
+          <li><a href="https://www.osi.es/es" target="_blank" rel="noopener">OSI - Oficina de Seguridad del Internauta</a></li>
+          <li><a href="https://www.cisa.gov/" target="_blank" rel="noopener">CISA - Cybersecurity & Infrastructure Security Agency</a></li>
+          <li><a href="https://owasp.org/" target="_blank" rel="noopener">OWASP - Recursos y guías de seguridad</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <button class="to-top" aria-label="Volver arriba">↑</button>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Proyecto final de Seguridad de las TIC · Grupo 4 · Curso 2025-2026</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
