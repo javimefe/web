@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <div class="scroll-progress" aria-hidden="true"></div>
     <header class="site-header">
       <nav class="nav container" aria-label="Navegación principal">
         <a class="brand" href="#inicio">🔐 Seguridad TIC</a>
@@ -50,7 +51,7 @@
         <h2>Descripción del grupo</h2>
         <div class="meta-card">
           <p><strong>Número de grupo:</strong> 4</p>
-          <p><strong>Integrantes:</strong> Laura Méndez Ruiz, David Soto Paredes, Carla Ibáñez León, Marcos Vidal Torres.</p>
+          <p><strong>Integrantes:</strong> Javier Medina, Alejandro Travieso, Mario Viera y Fernán Pérez.</p>
           <p>
             Como equipo, combinamos organización, creatividad, análisis técnico y comunicación.
             Hemos trabajado en conjunto para repartir contenidos, contrastar fuentes y construir una web
@@ -59,20 +60,44 @@
         </div>
         <div class="cards-grid">
           <article class="card reveal">
-            <h3>Laura Méndez Ruiz</h3>
-            <p>Metódica, comunicativa y responsable. Se centra en proteger datos personales y privacidad online.</p>
+            <h3>Javier Medina</h3>
+            <p>Metódico, analítico y constante. Se centra en privacidad digital, huella online y protección de datos.</p>
           </article>
           <article class="card reveal">
-            <h3>David Soto Paredes</h3>
-            <p>Analítico, resolutivo y curioso. Investiga malware, ataques comunes y sistemas de defensa activa.</p>
+            <h3>Alejandro Travieso</h3>
+            <p>Curioso, resolutivo y técnico. Investiga malware, phishing y medidas de defensa activa.</p>
           </article>
           <article class="card reveal">
-            <h3>Carla Ibáñez León</h3>
-            <p>Creativa, organizada y constante. Trabaja políticas de contraseñas y autenticación segura.</p>
+            <h3>Mario Viera</h3>
+            <p>Organizado, creativo y práctico. Trabaja políticas de contraseñas seguras y autenticación 2FA.</p>
           </article>
           <article class="card reveal">
-            <h3>Marcos Vidal Torres</h3>
-            <p>Práctico, colaborativo y observador. Desarrolla copias de seguridad, seguridad pasiva y recuperación.</p>
+            <h3>Fernán Pérez</h3>
+            <p>Colaborativo, observador y estratégico. Se enfoca en copias de seguridad y recuperación ante incidentes.</p>
+          </article>
+        </div>
+      </section>
+
+
+
+      <section class="container section reveal">
+        <h2>Indicadores clave del trabajo</h2>
+        <div class="cards-grid stats-grid">
+          <article class="card stat-card">
+            <p class="stat-number" data-count="4">0</p>
+            <p>Integrantes coordinados</p>
+          </article>
+          <article class="card stat-card">
+            <p class="stat-number" data-count="12">0</p>
+            <p>Buenas prácticas aplicadas</p>
+          </article>
+          <article class="card stat-card">
+            <p class="stat-number" data-count="3">0</p>
+            <p>Pilares de seguridad TIC</p>
+          </article>
+          <article class="card stat-card">
+            <p class="stat-number" data-count="24">0</p>
+            <p>Horas de investigación</p>
           </article>
         </div>
       </section>
@@ -98,14 +123,14 @@
         <h2 class="reveal">Aportaciones por integrante</h2>
 
         <article class="card reveal">
-          <h3>1) Laura · Privacidad y protección de datos</h3>
+          <h3>1) Javier · Privacidad y protección de datos</h3>
           <p>
             La privacidad digital implica controlar qué información personal compartimos y con quién.
-            Laura explica la importancia de configurar permisos en redes sociales, evitar enlaces sospechosos
+            Javier explica la importancia de configurar permisos en redes sociales, evitar enlaces sospechosos
             y usar cifrado cuando compartimos archivos sensibles.
           </p>
-          <button class="btn btn-primary toggle-btn" data-target="extra-laura">Ver más</button>
-          <div id="extra-laura" class="toggle-content">
+          <button class="btn btn-primary toggle-btn" data-target="extra-javier" data-open-text="Ver más" data-close-text="Ocultar explicación">Ver más</button>
+          <div id="extra-javier" class="toggle-content">
             <p>
               También destaca el uso de navegadores con protección anti-rastreo, revisión de cookies,
               y el derecho a la protección de datos según la normativa vigente. Recomienda revisar ajustes
@@ -125,13 +150,13 @@
         </article>
 
         <article class="card reveal">
-          <h3>2) David · Malware y amenazas</h3>
+          <h3>2) Alejandro · Malware y amenazas</h3>
           <p>
-            David clasifica las amenazas principales: virus, ransomware, spyware y phishing.
+            Alejandro clasifica las amenazas principales: virus, ransomware, spyware y phishing.
             Explica que muchos ataques empiezan por ingeniería social y no por fallos técnicos avanzados.
           </p>
-          <button class="btn btn-primary toggle-btn" data-target="extra-david">Mostrar información</button>
-          <div id="extra-david" class="toggle-content">
+          <button class="btn btn-primary toggle-btn" data-target="extra-alejandro" data-open-text="Mostrar información" data-close-text="Ocultar explicación">Mostrar información</button>
+          <div id="extra-alejandro" class="toggle-content">
             <p>
               Recomienda mantener software actualizado, instalar antivirus, activar firewall y verificar
               la autenticidad de correos antes de abrir adjuntos. También sugiere usar cuentas sin permisos
@@ -151,13 +176,13 @@
         </article>
 
         <article class="card reveal">
-          <h3>3) Carla · Contraseñas seguras y 2FA</h3>
+          <h3>3) Mario · Contraseñas seguras y 2FA</h3>
           <p>
-            Carla desarrolla buenas prácticas de autenticación: contraseñas largas, únicas y con gestor de contraseñas.
+            Mario desarrolla buenas prácticas de autenticación: contraseñas largas, únicas y con gestor de contraseñas.
             Subraya que repetir claves entre servicios aumenta mucho el riesgo.
           </p>
-          <button class="btn btn-primary toggle-btn" data-target="extra-carla">Ver más</button>
-          <div id="extra-carla" class="toggle-content">
+          <button class="btn btn-primary toggle-btn" data-target="extra-mario" data-open-text="Ver más" data-close-text="Ocultar explicación">Ver más</button>
+          <div id="extra-mario" class="toggle-content">
             <p>
               Recomienda activar doble factor (2FA) mediante app autenticadora y revisar periódicamente
               sesiones activas. En caso de filtración, cambiar claves inmediatamente y activar alertas de acceso.
@@ -176,13 +201,13 @@
         </article>
 
         <article class="card reveal">
-          <h3>4) Marcos · Copias de seguridad y seguridad pasiva</h3>
+          <h3>4) Fernán · Copias de seguridad y seguridad pasiva</h3>
           <p>
-            Marcos expone que la seguridad pasiva reduce daños cuando el ataque ya ocurrió.
+            Fernán expone que la seguridad pasiva reduce daños cuando el ataque ya ocurrió.
             La medida clave es la copia de seguridad con regla 3-2-1: tres copias, dos soportes distintos y una fuera de línea.
           </p>
-          <button class="btn btn-primary toggle-btn" data-target="extra-marcos">Mostrar información</button>
-          <div id="extra-marcos" class="toggle-content">
+          <button class="btn btn-primary toggle-btn" data-target="extra-fernan" data-open-text="Mostrar información" data-close-text="Ocultar explicación">Mostrar información</button>
+          <div id="extra-fernan" class="toggle-content">
             <p>
               Además, propone planes de recuperación, pruebas periódicas de restauración y uso de almacenamiento
               cifrado para evitar pérdida definitiva de información escolar o personal.
@@ -217,22 +242,22 @@
           <article class="faq-item">
             <button class="faq-question" aria-expanded="false">¿Cuál es la diferencia entre seguridad activa y pasiva?</button>
             <div class="faq-answer">
-              <p><strong>Laura:</strong> La seguridad activa previene ataques (antivirus, firewall, actualizaciones).</p>
-              <p><strong>Marcos:</strong> La seguridad pasiva reduce daños cuando ocurre el incidente (copias de seguridad, planes de recuperación).</p>
+              <p><strong>Javier:</strong> La seguridad activa previene ataques (antivirus, firewall, actualizaciones).</p>
+              <p><strong>Fernán:</strong> La seguridad pasiva reduce daños cuando ocurre el incidente (copias de seguridad, planes de recuperación).</p>
             </div>
           </article>
           <article class="faq-item">
             <button class="faq-question" aria-expanded="false">¿Por qué es importante usar 2FA?</button>
             <div class="faq-answer">
-              <p><strong>Carla:</strong> Porque añade una segunda barrera de acceso aunque alguien robe la contraseña.</p>
-              <p><strong>David:</strong> Disminuye ataques por credenciales filtradas y accesos no autorizados.</p>
+              <p><strong>Mario:</strong> Porque añade una segunda barrera de acceso aunque alguien robe la contraseña.</p>
+              <p><strong>Alejandro:</strong> Disminuye ataques por credenciales filtradas y accesos no autorizados.</p>
             </div>
           </article>
           <article class="faq-item">
             <button class="faq-question" aria-expanded="false">¿Qué hábitos mínimos debemos aplicar cada día?</button>
             <div class="faq-answer">
-              <p><strong>David:</strong> No abrir enlaces sospechosos y mantener aplicaciones al día.</p>
-              <p><strong>Laura:</strong> Revisar privacidad en redes y evitar compartir datos personales innecesarios.</p>
+              <p><strong>Alejandro:</strong> No abrir enlaces sospechosos y mantener aplicaciones al día.</p>
+              <p><strong>Javier:</strong> Revisar privacidad en redes y evitar compartir datos personales innecesarios.</p>
             </div>
           </article>
         </div>

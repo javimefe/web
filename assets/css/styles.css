@@ -26,6 +26,17 @@ body {
   line-height: 1.6;
 }
 
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0%;
+  z-index: 99;
+  background: linear-gradient(90deg, #24c8ff, #7d6bff, #24c8ff);
+  box-shadow: 0 0 16px rgba(36, 200, 255, 0.8);
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -135,11 +146,27 @@ h1 {
   font-weight: 600;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px) scale(1.02);
+  filter: brightness(1.08);
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.35) 50%, transparent 100%);
+  transform: translateX(-130%);
+  transition: transform 0.45s ease;
+}
+
+.btn:hover::after {
+  transform: translateX(130%);
 }
 
 .btn-primary {
@@ -179,6 +206,17 @@ h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
+}
+
+.stats-grid .stat-card {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: clamp(2rem, 6vw, 2.8rem);
+  font-weight: 800;
+  margin: 0.2rem 0;
+  color: var(--primary);
 }
 
 .text-link {
@@ -252,10 +290,11 @@ h1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(7, 18, 34, 0.7);
+  background: rgba(7, 18, 34, 0.82);
   color: #fff;
   cursor: pointer;
   z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .carousel-btn.prev { left: 10px; }
@@ -329,6 +368,10 @@ h1 {
 .to-top.show {
   opacity: 1;
   pointer-events: auto;
+}
+
+.to-top:hover {
+  transform: translateY(-3px);
 }
 
 .reveal {
